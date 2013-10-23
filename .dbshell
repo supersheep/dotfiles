@@ -1,0 +1,99 @@
+show collections
+db.test.people.remove()
+show collections
+db.test
+show
+db.test.people
+db.test.people.find()
+db.people.find()
+show collections
+db["test.people"].find()
+db["test.people"].remove()
+show collections
+db.people.insert([{name:"a"},{name:"b"}])
+db.people.find()
+db.people.find()}
+db.people.find()
+c = {"name":"c",friends:[{"name":"d"},{"name":"e"}]}
+people
+show collections
+db.people.insert(c)
+db.people.find()
+people.find()
+people = db.people
+people.find()
+people.find_one({"_id":c._id})
+people.find({"_id":c._id})
+people.find({"name":"c"})
+people.find({"_id":c["_id"]})
+people.find({"_id":"525399fafcf4515d36e87636"})
+people.find({"_id":ObjectId("525399fafcf4515d36e87636")})
+host = db.serverStatus().host;
+prompt = function() {              return db+"@"+host+"$ ";          }
+db
+use test
+use testdb
+db
+testdb.people
+show collections
+db.people
+a
+b
+c
+c._id
+print c._id
+console.log
+print(c)
+pretty
+print
+show collections
+db.people.find()
+a
+d = {"name":"d"}
+db.people.insert(d)
+db.people.find()
+d.friends = [c]
+db.people.insert(d)
+db.people.find()
+db.people.remove()
+show collections
+db.people.find()
+db.cources.insert([{name:"biology"},{name:"English"}])
+db.cources.find()
+db.students.insert({name:"Jane",address:{city:"new york",state:"NY"},scores:[{for_course:ObjectId("5253a245fcf4515d36e87639"),grade:4.0},{for_cource:ObjectId("5253a245fcf4515d36e8763a"),grade:3.0}]})
+db.students.find()
+db.students.find().pretty()
+db.students
+db.students.scores
+db.students.scores[0]
+print(db.students.scores[0])
+print(db.students[0].scores[0])
+print(db.students.find()[0].scores[0])
+print(db.students.find()[0].for_course.name)
+print(db.students.find()[0].for_course)
+print(db.students.find()[0].scores[0].for_course)
+print(db.students.find()[0].scores[0].for_course.name)
+ls
+get
+show db
+show collections
+show database
+show
+db
+db.list = []
+db.list.push(1)
+db.list[1] = 1
+db.list
+db.list.find()
+show collections
+db.blah = [{a:1},{a:2}]
+show dbs
+help
+show collections
+show collections
+db.song = [{a:1},{b:2}]
+db.song.find()
+db.song.insert({"a":1})
+db.song.insert({"a":2})
+db.song.find()
+db.song.insert({"a":3})

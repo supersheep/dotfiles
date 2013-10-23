@@ -1,0 +1,33 @@
+[user]
+	name = supersheep
+	email = supersheepxjy@gmail.com
+[http]
+	sslVerify = false
+[diff]
+[merge]
+	tool = extMerge
+	ff = false
+	ff = false
+[mergetool "extMerge"]
+#	cmd = extMerge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[mergetool]
+#	trustExitCode = false
+[diff]
+#	external = extDiff
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color]
+	ui = true
+[branch "master"]
+	mergeoptions = --no-ff
+[core]
+	autocrlf = false
+	whitespace = cr-at-eol
+	excludesfile = /Users/spud/.gitignore_global
+	mergeoptions = --no-edit
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Volumes/SourceTree/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
